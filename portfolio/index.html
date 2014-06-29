@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    <script src="js/jquery.quicksand.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+  <div id="dropcontainer">
+    <div id="dropdown">
+    
+      <div class="container">
+    
+        <a href="index.html">
+          <img src="images/logo1.png" alt="My portfolio" class="logo">
+          <h4><br><br>A home for my projects</h4>
+        </a>
+      
+        <img src="images/avatar.jpg" alt="Name here" class="dropavatar">
+      
+        <h2>Hi, I'm Sahil Bathla</h2>
+      
+        <p class="dpara1 dparas">I have developed these projects myself or in a team. If you need assitance running any executable project or if you would like to expand,contribute or suggest something related to these projects kindly drop a mail</p>
+      
+        <div class="dropsep"></div>
+      
+        <div style="position:relative;top:20px">
+          <form action="send_mail.php">
+            <input type="text" id="name" placeholder="Your Name&#46;&#46;&#46;">
+            <input type="email" id="email_address" placeholder="Your Email&#46;&#46;&#46;">
+            <textarea id="message" placeholder="Your Message&#46;&#46;&#46;"></textarea>
+            <input type="button" value="Submit &rarr;" id="submitMessage" class="dropsubmitbtn">
+            <div id="mailResult"></div>
+          </form>
+        </div>
+      
+      </div><!--container end-->
+
+    </div>
+
+    <a href="#" class="dropbtn "></a>
+
+  </div>
+
+    <div class="container">
+
+      <a href="index.html">
+        <img src="images/logo1.png" alt="My portfolio" class="logo">
+        
+        <h1 class="subtitle">A home for my projects</h1>
+        <!--<a href="../index.html" class="homeLink">Home</a>-->
+      </a>
+      
+      <nav id="filter">
+      <!-- menu -->
+      </nav>
+
+      <div class="portfolioseperator"></div>
+
+      <div class="portfoliocontainer">
+      <ul id="stage">
+        <li data-tags="Multimedia Projects">
+          <a href="project.html#ar_sketching"><span class="portfoliohover"><h1 class="porthover1">Air sketching</h1><h1 class="porthover2">visualize your air sketches </h1></span><img src="images/portfolio/handsketch.jpg" alt="" /></a>
+        </li>
+        <li data-tags="Gaming Projects">
+          <a href="project.html#bubble_breaker"><span class="portfoliohover"><h1 class="porthover1">Bubble Breaker</h1><h1 class="porthover2">Break all the bubbles to win</h1></span><img src="images/portfolio/bubble.jpg" alt="" /></a>
+        </li>
+        <li data-tags="Network Projects">
+          <a href="project.html#virtual_pro"><span class="portfoliohover"><h1 class="porthover1">Virtual Pro</h1><h1 class="porthover2">Turn mobile into wireless gamepad</h1></span><img src="images/portfolio/gamepad.png" alt="" /></a>
+        </li>
+        <li data-tags="Multimedia Projects">
+          <a href="project.html#cartoon_me"><span class="portfoliohover"><h1 class="porthover1">Cartooning Videos</h1><h1 class="porthover2">Have tweaks with your video </h1></span><img src="images/portfolio/work2.png" alt="" /></a>
+        </li>
+        <li data-tags="Web Projects">
+          <a href="project.html#soapBox"><span class="portfoliohover"><h1 class="porthover1">SoapBox</h1><h1 class="porthover2">Rails based social networking </h1></span><img src="images/portfolio/socialnetwork.jpg" alt="" /></a>
+        </li>
+        <li data-tags="Prototypes">
+          <a href="task_manager"><span class="portfoliohover"><h1 class="porthover1">Task-Manager</h1><h1 class="porthover2">Design for an online task manager </h1></span><img src="images/portfolio/work4.png" alt="" /></a>
+        </li>
+        
+      </ul>
+      </div>
+
+      <div class="footerseperator"></div>
+    </div><!--container end-->
+  </body>
+</html>

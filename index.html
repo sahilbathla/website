@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Sahil Bathla's Den</title>
+  <meta name="description" content="Sahil Bathla's official website - portfolio, blog, about me and contact me" />
+  <meta name="keywords" content="sahil, bathla, portfolio, blog, about, me, contact, me " />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Sahil <span class="logo_colour">Bathla</span></a></h1>
+          <h2>In's and out's of my life</h2>
+        </div>
+        <p style="float: right;">
+          <a href="https://github.com/sahilbathlavinsol" class="socialLink">
+            <img src="images/github.png" alt="github" width="35px" height="32px" />
+          </a>
+          <a href="https://twitter.com/sahilbathla" class="socialLink">
+            <img src="images/twitter.png" alt="twitter" />
+          </a>
+          <a href="https://www.facebook.com/sahilbathla1" class="socialLink">
+            <img src="images/facebook.png" alt="facebook" />
+          </a>
+
+        </p>
+      </div>
+
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="portfolio/index.html">My Portfolio</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="contact.php">Contact Me</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/1.jpg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/2.jpg" alt="photo_two" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>About Me</h1>
+        <p>I am a 23 old tech savvy person from New Delhi, India. I love software development to its core and I am consistenly working on various technologies and various projects which you can view in my portfolio. Go ahead have a look:- 
+          <a href="portfolio/index.html">My Portfolio</a>
+        </p>
+        <p>
+          I am currently working in Vinsol as a software engineer. Technologies I am currently dealing with includes jQuery, Css, HTML and Ruby on Rails. To view recent posts on them you can visit my blog.  
+            <a href="blog.html">My Blog</a>
+        </p>
+        <p>
+          On a personal level I love sports, I am a huge soccer fan and my favorite club is FC Barcelona. I also enjoy travelling, reading and writing blog entries.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>| Copyright &copy; Sahil Bathla | </p>
+    </footer>
+  
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

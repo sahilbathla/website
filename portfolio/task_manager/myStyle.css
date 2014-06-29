@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* Author - Sahil Bathla */
+
+body
+{
+	background-color:#f0f0f0;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	
+}
+
+div.mainContainer
+{
+	margin: 0px auto;
+	background-color:#164b69;
+	/*
+	min-height:100px;
+    height:auto !important;
+	 */
+    height:40.5em;
+	
+}
+
+.heading
+{
+	margin:1% auto;
+}
+
+a:link{
+color:#444444;
+font-weight:bold;
+text-decoration:none;
+}
+
+a:visited {
+color:#444444;
+font-weight:bold;
+text-decoration:none;
+}
+
+.taskManager
+{
+	margin:1%;
+	padding:0.5%;
+}
+.taskManager:hover
+{
+	background:#e0e0e0;
+}
+
+.addItem {
+	color:#a9a9a9; 
+	margin-left:0.5%;
+	padding:0.5%;
+	font-size:0.8em;
+}
+
+.addItem:hover
+{
+	background:#e0e0e0;
+}
+
+
+div.list /* Not working in IE7 */
+{
+	margin: 0 2em 1em;
+	background:#f0f0f0;
+	width:200px;
+	max-width:200px;
+	
+}
+
+input
+{border-radius:2px;
+padding:0.3em;}
+
+.error
+{
+	color:#444444;
+	font-weight:bold;
+	font-size:0.6em;
+}
+
+.listTitle
+{
+	margin:0.5em;
+	color:#444444;
+	font-weight:bold;
+	background:#e0e0e0;
+}
+
+.task
+{
+	margin:0.5em;
+	color:#444444;
+	background:#e0e0e0;
+	max-width:10em;
+	width:10em;
+}
+
+.taskTitle
+{
+	padding:5px;
+	font-size:0.7em;
+	background:#e0e0e0;
+}
+.signs:hover
+{
+	opacity:0.4;
+}
+

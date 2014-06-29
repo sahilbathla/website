@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<script src="js/jquery.quicksand.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+	<div id="dropcontainer">
+		<div id="dropdown">
+			<br><br><br>
+			<div class="container">
+		
+				<a href="index.html">
+					<img src="images/logo1.png" alt="My portfolio" class="logo">
+					<h4><br><br>A home for my projects</h4>
+				</a>
+			
+				<img src="images/avatar.jpg" alt="Name here" class="dropavatar">
+			
+				<h2>Hi, I'm Sahil Bathla</h2>
+			
+				<p class="dpara1 dparas">I have developed these projects myself or in a team. If you need assitance running any executable project or if you would like to expand,contribute or suggest something related to these projects kindly drop a mail</p>
+			
+				<div style="position:relative;top:20px">
+					<form action="send_mail.php">
+						<input type="text" id="name" placeholder="Your Name&#46;&#46;&#46;">
+						<input type="email" id="email_address" placeholder="Your Email&#46;&#46;&#46;">
+						<textarea id="message" placeholder="Your Message&#46;&#46;&#46;"></textarea>
+						<input type="button" value="Submit &rarr;" id="submitMessage" class="dropsubmitbtn">
+						<div id="mailResult"></div>
+					</form>
+				</div>
+			
+			</div><!--container end-->
+
+		</div>
+
+		<a href="#" class="dropbtn "></a>
+
+	</div>
+
+	
+
+	<div id="navigationLinks">
+
+		<a href="index.html" id="logo">
+			<img src="images/logo1.png" alt="My portfolio" class="logo"></img>
+			<h1 class="subtitle">A home for my projects</h1>
+		</a>
+
+		<div id="repositoryLink" >
+			<a href="index.html">
+				<u>Return To Project Repository</u>
+			</a>
+		</div>
+
+	</div>
+
+	<div class="container" id="mainContent">
+
+	<div id="videoContainer">
+		<h3 id="videoHeading"></h3><br/>
+		<div id="video" >
+			<iframe id="videoSource" width="500" height="315" src="" frameborder="0" allowfullscreen></iframe>
+		</div><!-- video end-->
+	</div><!-- end of videoContainer div-->
+
+		<div id="content" class="boxed" align="left">
+			<ul id="stepInstall">
+			</ul>
+		
+			<div id="projectDetail"> 
+			</div>
+
+			<div id="prerequisteList"><br>Prerequisites before you run the files:-<br><br></div>
+			
+			<hr>
+			<p>  If you face any problem running the executables or you want to know how we developed this application kindly drop a mail 
+				<u>
+					<span onclick="tryit()">here </span>
+				</u>
+			</p>
+		
+		</div><!--container end-->
+
+	</body>
+</html>
